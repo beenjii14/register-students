@@ -1,0 +1,11 @@
+.link-container{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    >.ref{
+        width: 30%;
+    }
+}

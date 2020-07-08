@@ -1,0 +1,14 @@
+.link {
+  > a {
+    color: #1976d2;
+    font-family: helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:active {
+      color: black;
+    }
+    &:visited {
+      color: purple;
+    }
+  }
+}

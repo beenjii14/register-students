@@ -1,0 +1,51 @@
+:root {
+  --blue: #4e9aff;
+  --secondary: #9e9e9e;
+  --success: #27a744;
+  --danger: #c82332;
+}
+
+.button {
+  height: 50px;
+  width: fit-content;
+  min-width: 80px;
+  -webkit-box-flex: 0.25;
+  -ms-flex-positive: 0.25;
+  flex-grow: 0.25;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  outline: none;
+  display: flex;
+  background-color: var(--blue);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  font-weight: bold;
+
+  &:active {
+    transform: scale(0.96);
+  }
+}
+
+.btn-sm {
+  height: 30px;
+  min-width: 40px;
+}
+
+.secondary {
+  background-color: var(--secondary);
+}
+
+.success {
+  background-color: var(--success);
+}
+
+.danger {
+  background-color: var(--danger);
+}

@@ -1,0 +1,30 @@
+.table-container {
+  border-collapse: collapse;
+  .head {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    > th {
+      background-color: #1a1f26;
+      color: white;
+      padding: 5px;
+    }
+  }
+
+  .body {
+    > td {
+      text-align: center;
+      font-size: 15px;
+      padding: 16px 0;
+    }
+  }
+
+  .color {
+    background-color: #f5f5f5;
+  }
+}
+
+.link {
+  margin-top: 20px;
+}
